@@ -1,0 +1,24 @@
+********************************************
+*                                          *
+* partits v2.00                            *
+* Copyright (C) 2022-2023                  *
+* Marc Ramírez Rubio                       *
+* Artur Viader Mataix                      *
+* Miguel Zhao Zhi                          *
+*                                          *
+********************************************
+
+Aplicació que mostra tots els partits d'una jornada (qualsevol) de la Premier League d'aquesta temporada i permet:
+
+a) Seleccionar un partit
+b) Indicar si el partit finalitza amb empat o no
+d) Indica el guanyador si no finalitza en empat. En cas d'empat aquest valor no s'utilitza.
+e) Indicar el resutat.
+e) Indicar l'equip que marca primer si el resultat no és 0-0. Si és 0-0 indicar aquest valor no s'utilitza.
+f) Indica l'equip amb més posessió de la pilota
+g) Indica quin és l'equip que farà més xuts a porteria
+h) Indica quin és l'equip que llençarà més corners
+i) Indica quin és l'equip que farà més faltes.
+j) Demana el nom d'usuari que ha fet la predicció
+k) Indica la quantitat de Micropunts (valor màxim 1000) que l'usuari vol arriscar en la predicció (1.000.000.000 Micropunts = 1 cèntin d'euro)
+j) La predicció s'emmagatzemarà en un fitxer de nom prediccions.txt dins d'un volum compartit entre Vagrant i Docker
