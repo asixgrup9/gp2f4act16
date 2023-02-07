@@ -2,7 +2,7 @@ version: '3'
 
 services:
   partits:
-    image: partits:1.0
+    image: partits:3.0
     expose:
       - "80"
 
