@@ -148,6 +148,24 @@
             </tr></td>
         </table>
         </form>
+
+        <?php
+            if (isset($_POST["usuari"])) {
+                echo "Usuari: $usuari";
+                echo "Partit: $partit";
+                echo "Empat: $empatsi";
+                echo "Guanyador: $guanyador";
+                echo "Gols equip local: $golslocal";
+                echo "Gols equip visitant: $golsvisitant";
+                echo "Qui marca primer: $marca";
+                echo "Equip amb més possesió de la pilota: $posessio";
+                echo "Equip que farà més xuts a porteria:: $xuts";
+                echo "Equip que llançara més corners: $corners";
+                echo "Equip que farà més faltes: $faltes";
+                echo "Quantitat de micropunts:: $punts";
+            }
+        ?>
+
         <div align="center"><a href="llegeix.php">Click aquí per a veure el contingut de l'arxiu prediccions.txt</a>
         </div>
     </body>
