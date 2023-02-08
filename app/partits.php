@@ -151,18 +151,18 @@
 
         <?php
             if (isset($_POST["usuari"])) {
-                echo "Usuari: $usuari";
-                echo "Partit: $partit";
-                echo "Empat: $empatsi";
-                echo "Guanyador: $guanyador";
-                echo "Gols equip local: $golslocal";
-                echo "Gols equip visitant: $golsvisitant";
-                echo "Qui marca primer: $marca";
-                echo "Equip amb més possesió de la pilota: $posessio";
-                echo "Equip que farà més xuts a porteria:: $xuts";
-                echo "Equip que llançara més corners: $corners";
-                echo "Equip que farà més faltes: $faltes";
-                echo "Quantitat de micropunts:: $punts";
+                echo "Usuari: $usuari<br>";
+                echo "Partit: $partit<br>";
+                echo "Empat: $empatsi<br>";
+                echo "Guanyador: $guanyador<br>";
+                echo "Gols equip local: $golslocal<br>";
+                echo "Gols equip visitant: $golsvisitant<br>";
+                echo "Qui marca primer: $marca<br>";
+                echo "Equip amb més possesió de la pilota: $posessio<br>";
+                echo "Equip que farà més xuts a porteria:: $xuts<br>";
+                echo "Equip que llançara més corners: $corners<br>";
+                echo "Equip que farà més faltes: $faltes<br>";
+                echo "Quantitat de micropunts:: $punts<br>";
             }
         ?>
 
