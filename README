@@ -1,14 +1,14 @@
 ********************************************
 *                                          *
-* partits v3.00                            *
+* partits v2.00                            *
 * Copyright (C) 2022-2023                  *
 * Marc Ramírez Rubio                       *
 * Artur Viader Mataix                      *
 * Miguel Zhao Zhi                          *
-***                                        *
+*                                          *
 ********************************************
 
-Versió: 3.0
+Versió: 2.0
 
 Aplicació que mostra tots els partits d'una jornada (qualsevol) de la Premier League d'aquesta temporada i permet:
 
@@ -21,6 +21,9 @@ f) Indica l'equip amb més posessió de la pilota
 g) Indica quin és l'equip que farà més xuts a porteria
 h) Indica quin és l'equip que llençarà més corners
 i) Indica quin és l'equip que farà més faltes.
-j) Demana el nom d'usuari que ha fet la predicció
-k) Indica la quantitat de Micropunts (valor màxim 1000) que l'usuari vol arriscar en la predicció (1.000.000.000 Micropunts = 1 cèntin d'euro)
-j) La predicció s'emmagatzemarà en un fitxer de nom prediccions.txt dins d'un volum compartit entre Vagrant i Docker
+j) Indica a quin equip treuren més targetes:
+   -Grogues
+   -Vermelles
+k) Demana el nom d'usuari que ha fet la predicció
+l) Indica la quantitat de Micropunts (valor màxim 1000) que l'usuari vol arriscar en la predicció (1.000.000.000 Micropunts = 1 cèntin d'euro)
+m) La predicció s'emmagatzemarà en un fitxer de nom prediccions.txt dins d'un volum compartit entre Vagrant i Docker

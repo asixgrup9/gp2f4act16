@@ -32,6 +32,9 @@
                 $xuts = $_POST["xuts"];
                 $corners = $_POST["corners"];
                 $faltes = $_POST["faltes"];
+                $targetes = $_POST["targetes"];
+                $targrogues = $_POST["targrogues"];
+                $tarvermelles = $_POST["tarvermelles"];
                 $punts = $_POST["punts"]    ;
 
                 $txt = "Usuari: $usuari\n";
@@ -52,6 +55,9 @@
                 $txt .= "Equip que farà més xuts a porteria: $xuts\n";
                 $txt .= "Equip que llançara més corners: $corners\n";
                 $txt .= "Equip que farà més faltes: $faltes\n";
+                $txt .= "Equip que treuran més targetes: $targetes\n";
+                $txt .= "Quantitat de targetes grogues: $targrogues\n";
+                $txt .= "Quantitat de targetes vermelles: $tarvermelles\n";
                 $txt .= "Quantitat de micropunts: $punts\n";
                 $txt .= "------------------------\n";
                 fwrite($myfile, $txt);
@@ -136,6 +142,14 @@
                 <option value='Equip visitant'>Equip visitant</option>
             </select>
             </tr></td>
+            Indica a quin equip treuren més targetes:
+            <select id="targetes" name="targetes" required>
+                <option value='Equip local'>Equip local</option>
+                <option value='Equip visitant'>Equip visitant</option>
+            </select>
+            Indica la cuantitat de targetes Grogues: <input type="number" id="targrogues" name="targrogues">
+            Indica la cuantitat de targetes Vermelles: <input type="number" id="tarvermelles" name="tarvermelles">
+            </tr></td>
             <tr><td>
             Nom de usuari: <input type="text" id="usuari" name="usuari">
             </tr></td>
@@ -162,11 +176,14 @@
                 echo "Equip que farà més xuts a porteria:: $xuts<br>";
                 echo "Equip que llançara més corners: $corners<br>";
                 echo "Equip que farà més faltes: $faltes<br>";
+                echo "Quantitat de targetes grogues: $targrogues<br>";
+                echo "Quantitat de targetes vermelles: $tarvermelles<br>";
+                echo "Quantitat de micropunts: $punts<br>";
                 echo "Quantitat de micropunts:: $punts<br>";
             }
         ?>
 
-        <div align="center"><a href="llegeix.php">Click aquí per a veure el contingut de l'arxiu prediccions.txt</a>
+        <div align="center"><a href="llegeix.php">Clic aquí per a veure el contingut de l'arxiu prediccions.txt</a>
         </div>
     </body>
 </html>
