@@ -35,6 +35,10 @@
                 $targetes = $_POST["targetes"];
                 $targrogues = $_POST["targrogues"];
                 $tarvermelles = $_POST["tarvermelles"];
+                $min20 = $POST_["min20"];
+                $min40 = $POST_["min40"];
+                $min60 = $POST_["min60"];
+                $min80 = $POST_["min80"];
                 $punts = $_POST["punts"]    ;
 
                 $txt = "Usuari: $usuari\n";
@@ -58,6 +62,10 @@
                 $txt .= "Equip que treuran més targetes: $targetes\n";
                 $txt .= "Quantitat de targetes grogues: $targrogues\n";
                 $txt .= "Quantitat de targetes vermelles: $tarvermelles\n";
+                $txt .= "Resultat en el minut 20: $min20\n";
+                $txt .= "Resultat en el minut 40: $min40\n";
+                $txt .= "Resultat en el minut 60: $min60\n";
+                $txt .= "Resultat en el minut 80: $min80\n";
                 $txt .= "Quantitat de micropunts: $punts\n";
                 $txt .= "------------------------\n";
                 fwrite($myfile, $txt);
@@ -150,6 +158,12 @@
             Indica la cuantitat de targetes Grogues: <input type="number" id="targrogues" name="targrogues">
             Indica la cuantitat de targetes Vermelles: <input type="number" id="tarvermelles" name="tarvermelles">
             </tr></td>
+            Indica el resultat en els minuts::
+            Minut 20: <input type="number" id="min20" name="min20">
+            Minut 40: <input type="number" id="min40" name="min40">
+            Minut 60: <input type="number" id="min60" name="min60">
+            Minut 80: <input type="number" id="min80" name="min80">
+            </tr></td>
             <tr><td>
             Nom de usuari: <input type="text" id="usuari" name="usuari">
             </tr></td>
@@ -178,8 +192,11 @@
                 echo "Equip que farà més faltes: $faltes<br>";
                 echo "Quantitat de targetes grogues: $targrogues<br>";
                 echo "Quantitat de targetes vermelles: $tarvermelles<br>";
+                echo "Resultat en el minut 20: $min20<br>";
+                echo "Resultat en el minut 40: $min40<br>";
+                echo "Resultat en el minut 60: $min60<br>";
+                echo "Resultat en el minut 80: $min80<br>";
                 echo "Quantitat de micropunts: $punts<br>";
-                echo "Quantitat de micropunts:: $punts<br>";
             }
         ?>
 

@@ -7,7 +7,7 @@
 *                                          *
 ********************************************
 
-Versió: 2.5
+Versió: 3.0
 
 Aplicació que mostra tots els partits d'una jornada (qualsevol) de la Premier League d'aquesta temporada i permet:
 
@@ -23,6 +23,7 @@ i) Indica quin és l'equip que farà més faltes.
 j) Indica a quin equip treuren més targetes:
    -Grogues
    -Vermelles
-k) Demana el nom d'usuari que ha fet la predicció
-l) Indica la quantitat de Micropunts (valor màxim 1000) que l'usuari vol arriscar en la predicció (1.000.000.000 Micropunts = 1 cèntin d'euro)
-m) La predicció s'emmagatzemarà en un fitxer de nom prediccions.txt dins d'un volum compartit entre Vagrant i Docker
+k) Indica el resultat en els minuts: 20, 40, 60 i 80 del partit
+l) Demana el nom d'usuari que ha fet la predicció
+m) Indica la quantitat de Micropunts (valor màxim 1000) que l'usuari vol arriscar en la predicció (1.000.000.000 Micropunts = 1 cèntin d'euro)
+n) La predicció s'emmagatzemarà en un fitxer de nom prediccions.txt dins d'un volum compartit entre Vagrant i Docker
