@@ -1,6 +1,5 @@
 ********************************************
 *                                          *
-* partits v2.00                            *
 * Copyright (C) 2022-2023                  *
 * Marc Ramírez Rubio                       *
 * Artur Viader Mataix                      *
@@ -8,7 +7,7 @@
 **                                         *
 ********************************************
 
-Versió: 2.0
+Versió: 2.1
 
 Aplicació que mostra tots els partits d'una jornada (qualsevol) de la Premier League d'aquesta temporada i permet:
 
