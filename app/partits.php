@@ -150,6 +150,7 @@
                 <option value='Equip visitant'>Equip visitant</option>
             </select>
             </tr></td>
+            <tr><td>
             Indica a quin equip treuren més targetes:
             <select id="targetes" name="targetes" required>
                 <option value='Equip local'>Equip local</option>
@@ -158,6 +159,7 @@
             Indica la cuantitat de targetes Grogues: <input type="number" id="targrogues" name="targrogues">
             Indica la cuantitat de targetes Vermelles: <input type="number" id="tarvermelles" name="tarvermelles">
             </tr></td>
+            <tr><td>
             Indica el resultat en els minuts::
             Minut 20: <input type="number" id="min20" name="min20">
             Minut 40: <input type="number" id="min40" name="min40">
